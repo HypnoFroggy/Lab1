@@ -5,7 +5,7 @@ c = int(input())
 d = b * b - 4 * a * c
 
 if d < 0:
-    print("No roots(")
+    print("No roots")
 elif d == 0:
     x = ((-1)*b) / (2*a)
     print("x = ", x)
